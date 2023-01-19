@@ -181,3 +181,19 @@ switch(nombreMes){
 }
 console.log(`Estás en (${numeroMes}), número del año: ${nombreMes} y en la estación que estas es: ${epocaDelAño}`);
 
+//---------Refactorizando
+function factorial( number ){
+    if( number < 1) 
+        return 1;
+    return number * factorial( number - 1 )
+}
+console.log("Factorial 5 = " + factorial(5) ); //120
+
+//---------Refactorizando
+function factorial( number ){
+    if( number < 1) 
+        return 1;
+    return number * factorial( number - 1 )
+}
+console.log("Factorial 5 = " + factorial(5) ); //120
+
