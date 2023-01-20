@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    }
+
+h2{
+    text-align: center;
+    }
+
+h3{
+    text-align: center;
+    }
+
+p{
+    text-align: center;
+    }
+
+form{
+    text-align: center;
+    }
+    
+.boton-div{
+    text-align: center;
+    color: rgb(15, 31, 248);
+    background-color: rgb(4, 247, 4);
+    }
+
+button{
+        text-align: center;
+        color: rgb(3, 255, 28);
+        background-color: rgb(68, 119, 249);
+        }
+
+body{
+    background-color: rgb(3, 3, 3);
+}
+
+input[type=number], select[id=month]{
+    background-color: #03ff29;
+    border: black;
+    padding: 1px 1px;
+    text-decoration: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.work-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
